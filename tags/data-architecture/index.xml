@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data-architecture on Jon Downing</title>
+    <link>https://jdzool.github.io/tags/data-architecture/</link>
+    <description>Recent content in data-architecture on Jon Downing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 05 Sep 2019 20:11:25 +0100</lastBuildDate>
+    
+	<atom:link href="https://jdzool.github.io/tags/data-architecture/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog: On filling the (data) lake</title>
+      <link>https://jdzool.github.io/posts/2019-filling-the-lake/</link>
+      <pubDate>Thu, 05 Sep 2019 20:11:25 +0100</pubDate>
+      
+      <guid>https://jdzool.github.io/posts/2019-filling-the-lake/</guid>
+      <description>At Valtech, we work with companies and organisations to deliver digital transformation. Our approach in this space is to create change by building or improving on systems that provide services to users. In building systems and services, we are strongly informed by user needs and seek rapid feedback. Using feedback loops between users and digital/data teams we are more likely to deliver value early and be impactful to improve organisational performance.</description>
+    </item>
+    
+  </channel>
+</rss>

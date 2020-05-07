@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data-dojo on Jon Downing</title>
+    <link>https://jdzool.github.io/tags/data-dojo/</link>
+    <description>Recent content in data-dojo on Jon Downing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Tue, 04 Feb 2020 11:54:31 +0100</lastBuildDate>
+    
+	<atom:link href="https://jdzool.github.io/tags/data-dojo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Data Dojo: Design of Analytical Pipelines</title>
+      <link>https://jdzool.github.io/portfolio/2020-data-dojo-design-analytical-pipelines/</link>
+      <pubDate>Tue, 04 Feb 2020 11:54:31 +0100</pubDate>
+      
+      <guid>https://jdzool.github.io/portfolio/2020-data-dojo-design-analytical-pipelines/</guid>
+      <description>While rules are meant to be broken, I believe having a process flow/framework can often simplify problem solving for a team. We thought a lot about this at Ofgem and came up with a five stage process (Define, Explore, Design, Build, Handover). Maybe the team will open source this progress at some point&amp;hellip; in the mean time I&amp;rsquo;ve written here about the design of analytical pipelines. Get the design process right and you&amp;rsquo;re more than half way there!</description>
+    </item>
+    
+    <item>
+      <title>Data Dojo: UML Modelling</title>
+      <link>https://jdzool.github.io/portfolio/2018-data-dojo-uml-modelling/</link>
+      <pubDate>Sat, 01 Dec 2018 12:40:36 +0100</pubDate>
+      
+      <guid>https://jdzool.github.io/portfolio/2018-data-dojo-uml-modelling/</guid>
+      <description>Trevor (the best architect I&amp;rsquo;ve ever met) got me started on PlantUML. It&amp;rsquo;s a great tool to quickly draw technical diagrams. While the diagrams might look like they&amp;rsquo;re from the 1980&amp;rsquo;s (they are), the pseudo-code makes it easy to generate diagrams from text files (.puml) and these can be version controlled. This makes them useful to tracking changes in process flows or collaborating on documentation. See the session I&amp;rsquo;ve run with a few teams to get started: PlantUML Data Dojo.</description>
+    </item>
+    
+    <item>
+      <title>Data Dojo: Introduction to Modelling</title>
+      <link>https://jdzool.github.io/portfolio/2018-data-dojo-intro-to-modelling/</link>
+      <pubDate>Mon, 26 Mar 2018 11:14:14 +0100</pubDate>
+      
+      <guid>https://jdzool.github.io/portfolio/2018-data-dojo-intro-to-modelling/</guid>
+      <description>I spent some time breaking down the modelling process to our junior analysts. The introduction to modelling presents what a model is, why we seek to model and how we can go about creating and validating models. This was an introduction to a wider workshop where members presented initial work on Bayesian statistics, decision trees, discrete event simulation, anomaly detection and neural networks.</description>
+    </item>
+    
+  </channel>
+</rss>

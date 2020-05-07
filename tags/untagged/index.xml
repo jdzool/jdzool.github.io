@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>untagged on Jon Downing</title>
+    <link>https://jdzool.github.io/tags/untagged/</link>
+    <description>Recent content in untagged on Jon Downing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 15 Jun 2017 11:23:16 +0100</lastBuildDate>
+    
+	<atom:link href="https://jdzool.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Book Review: Superintelligence by Nick Bostrom</title>
+      <link>https://jdzool.github.io/posts/2017-book-review-superintelligence/</link>
+      <pubDate>Thu, 15 Jun 2017 11:23:16 +0100</pubDate>
+      
+      <guid>https://jdzool.github.io/posts/2017-book-review-superintelligence/</guid>
+      <description>My wife’s interest in policy and the broader societal implications of the development of Artificial Intelligence led to her ordering one of, if not the, foundational books on general AI: “Superintelligence”, by Nick Bostrom.
+My interest in machine learning and data science led to me to borrow said book almost from the moment it landed on our doorstep. It’s been an interesting read, and has kept me occupied on trains and in other spare moments.</description>
+    </item>
+    
+    <item>
+      <title>Blog: A case of the Business Registers (ONS)</title>
+      <link>https://jdzool.github.io/posts/2017-a-case-of-the-business-registers/</link>
+      <pubDate>Fri, 03 Feb 2017 11:23:31 +0000</pubDate>
+      
+      <guid>https://jdzool.github.io/posts/2017-a-case-of-the-business-registers/</guid>
+      <description>This blog post was published on Valtech&#39;s team website and describes work completed at the Office of National Statistics (ONS) in Newport as part of the Statistical Business Register (SBR) Discovery. The project wrapped up at ONS on February 3rd 2017. The post has been modified for public consumption.
+Key links describing future work are included at the end of this post.
+Some background Broadly a business register keeps track of economic data, most importantly turnover, number of employees, sector, business ownership and some idea of the aggregation of the business group (i.</description>
+    </item>
+    
+  </channel>
+</rss>

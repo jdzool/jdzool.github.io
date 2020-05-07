@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Jon Downing</title>
+    <link>https://jdzool.github.io/tags/</link>
+    <description>Recent content in Tags on Jon Downing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Tue, 04 Feb 2020 11:54:31 +0100</lastBuildDate>
+    
+	<atom:link href="https://jdzool.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>data-dojo</title>
+      <link>https://jdzool.github.io/tags/data-dojo/</link>
+      <pubDate>Tue, 04 Feb 2020 11:54:31 +0100</pubDate>
+      
+      <guid>https://jdzool.github.io/tags/data-dojo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data-architecture</title>
+      <link>https://jdzool.github.io/tags/data-architecture/</link>
+      <pubDate>Thu, 05 Sep 2019 20:11:25 +0100</pubDate>
+      
+      <guid>https://jdzool.github.io/tags/data-architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>presentation</title>
+      <link>https://jdzool.github.io/tags/presentation/</link>
+      <pubDate>Wed, 03 Apr 2019 18:00:00 +0000</pubDate>
+      
+      <guid>https://jdzool.github.io/tags/presentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>untagged</title>
+      <link>https://jdzool.github.io/tags/untagged/</link>
+      <pubDate>Thu, 15 Jun 2017 11:23:16 +0100</pubDate>
+      
+      <guid>https://jdzool.github.io/tags/untagged/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>coding-projects</title>
+      <link>https://jdzool.github.io/tags/coding-projects/</link>
+      <pubDate>Thu, 04 May 2017 15:15:30 +0100</pubDate>
+      
+      <guid>https://jdzool.github.io/tags/coding-projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DES</title>
+      <link>https://jdzool.github.io/tags/des/</link>
+      <pubDate>Thu, 04 May 2017 15:15:30 +0100</pubDate>
+      
+      <guid>https://jdzool.github.io/tags/des/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>model-building</title>
+      <link>https://jdzool.github.io/tags/model-building/</link>
+      <pubDate>Thu, 04 May 2017 15:15:30 +0100</pubDate>
+      
+      <guid>https://jdzool.github.io/tags/model-building/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

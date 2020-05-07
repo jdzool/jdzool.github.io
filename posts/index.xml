@@ -1,0 +1,164 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Jon Downing</title>
+        <link>https://jdzool.github.io/posts/</link>
+        <description>Recent content in Posts on Jon Downing</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Thu, 05 Sep 2019 20:11:25 +0100</lastBuildDate>
+        <atom:link href="https://jdzool.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Blog: On filling the (data) lake</title>
+            <link>https://jdzool.github.io/posts/2019-filling-the-lake/</link>
+            <pubDate>Thu, 05 Sep 2019 20:11:25 +0100</pubDate>
+            
+            <guid>https://jdzool.github.io/posts/2019-filling-the-lake/</guid>
+            <description>At Valtech, we work with companies and organisations to deliver digital transformation. Our approach in this space is to create change by building or improving on systems that provide services to users. In building systems and services, we are strongly informed by user needs and seek rapid feedback. Using feedback loops between users and digital/data teams we are more likely to deliver value early and be impactful to improve organisational performance.</description>
+            <content type="html"><![CDATA[<p>At Valtech, we work with companies and organisations to deliver digital transformation. Our approach in this space is to create change by building or improving on systems that provide services to users. In building systems and services, we are strongly informed by user needs and seek rapid feedback. Using feedback loops between users and digital/data teams we are more likely to deliver value early and be impactful to improve organisational performance.</p>
+<p>In the data space like many others we recommend organisations hold all data in a central location. The advantages of this approach are well documented (see links at the end of this article). Advantages include, a common working processes around data management, ability to derive greater insight as data from across the organisation can be joined and far greater efficiency and transparency of analytical processes.</p>
+<p>Of course the outcome of these benefits is an organisation better able to meet their goals. With this in mind, many organisations seek to build data lakes and data platforms. However, building a platform is not sufficient &ndash; it must be used! And use requires data to be loaded. How should one go about filling a data platform? Here are a four key points from working with clients in this space.</p>
+<ol>
+<li><strong>Understanding the analytical process:</strong> The analytical process is often described as a pyramid. At the bottom of the pyramid is the collection of raw data; raw data is a measurement or observation of some quantity in the physical world (e.g. wind speed) or virtual world (e.g. ad-clicks). As the pyramid narrows, raw data is validated for accuracy, joined with other datasets and enriched to create derived values. Enriching the data creates knowledge – data items that are known and that can be related to other values or concepts.</li>
+</ol>
+<p>The knowledge pyramid of insights!
+(To redraw)</p>
+<ol start="2">
+<li>
+<p><strong>Design data pipelines:</strong> In order to building up the knowledge pyramid we must understand the value or need of the activity. This can be split into two tasks; business analysis and data business analysis. Business analysis focuses on the business outcomes of a process or organisational unit, setting the context at the business level; What is our vision?, Why are we starting project x?, What is the outcome of business process y?, How is this resourced?</p>
+<p>Data business analysis is at the next level down and focuses on the use of data to fulfil the defined business needs. Still with an element of exploration but having the context defined, now analysts have a much more focused aim; Which data inputs are available?, Which outputs are required to meet business needs? Are outputs calculated? Which algorithms or models are required?</p>
+<p>The task of requirements gathering at the Data Business Analysis level is may not be quite data science (in our view constrained to creating algorithms and predictive modelling), although often is completed by data scientists as part of their work.</p>
+<p>The output from the combined Business Analysis and Data Business Analysis is a deep understanding of the subject domain and the definition of a pipeline that can take data from measurements through to decision. If completed correctly, from documentation of requirements user stories for a data engineering team can fall neatly out. Useful artefacts to create when conducting this process are:</p>
+<ul>
+<li>A conceptual data model: A representation of the system, made up from concepts and their relationships to each other.</li>
+<li>Physical data model: The data items (column headers or attributes, data types, data definitions) used in the data pipeline</li>
+<li>Physical data flows: The description of how data flows through a system from raw to outputs. This is through a series of data items linked by specific transformations.</li>
+</ul>
+</li>
+</ol>
+<div style="text-align: center;">
+<figure class="center">
+    
+        <img src="/img/data_lake_pyramid_meme.png" width="400" />
+    
+    <figcaption><small><i>Pyramid meme</i></small></figcaption>
+</figure>
+</div>
+
+<ol start="3">
+<li>
+<p><strong>Filling the lake (data architecture, run data pipelines):</strong> In loading data into a common platform and creating data pipelines from data there are still many decisions to make. The first is that of data architecture – all data should be stored across the data lifecycle. In line with our idea of building a pyramid of knowledge we normally chose buckets each of which is a layer of the pyramid. For example raw, ingest, transform, calculate, publish. Each bucket has a defined meaning; for instance, raw data is raw with nothing more than a virus scan being applied to the data, ingested data is raw data which has been validated against certain business rules and so on.</p>
+<p>The value of this approach is that the state of data at each layer is known, transitions between layers can be repeated and tested, and everything is stored, meaning users can access disaggregated data as needed for possible future experiments.</p>
+<p>In starting to load data into this data architecture, we have two main options:</p>
+<ul>
+<li>Load only raw data: We can load data only at the bottom of the pyramid. With this data, data pipelines can enrich the data and apply calculation to create aggregations or other statistical outputs.</li>
+<li>‘User picks value’: Any dataset required can be loaded into the platform, aggregated data may already exist and be useful to users. Contrary to pyramids data architecture does not require a layer below it for support!</li>
+</ul>
+<p>Of course, there is no right answers with each approach having pros and cons. For instance, in the first instance, calculations must be known to allow more valuable outputs to be created. In the second case, existing outputs loaded into the platform may not be accurate and certainly are not testable as we lack the raw data to create them. Users might be cautioned in the use of this data &ndash; bad data in, bad decisions out! However, some data is (most of the time) better than no data.</p>
+</li>
+<li>
+<p><strong>Invest, iterate and create value:</strong> In short, setup your teams right – hire those with mixed skills (Business Analysts, Data Business Analysts) and implement a process by which data can be organised at scale. The outputs created from the analysis process should feed engineering teams to develop data pipelines building data from raw data to however high up the knowledge pyramid your need requires. Users should provide feedback on data stored in the platform and so start the cycle again if need be.</p>
+</li>
+</ol>
+<p>In a parallel with digital transformation, filling a central data store to realise analytical benefits requires continued investment. I believe following the few points above can help guide teams in filling a central data store and start leveraging the data stored. From my time working at Jaguar Land Rover, I am reminded by an old poster in the engineering building – ‘The cost of change is lowest in the design phase’. Get your initial analysis close to right, iterate and the rest will follow!</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Meet-up: Data bites - Getting things done with data in government</title>
+            <link>https://jdzool.github.io/posts/2019-meet-up-data-bites/</link>
+            <pubDate>Wed, 03 Apr 2019 18:00:00 +0000</pubDate>
+            
+            <guid>https://jdzool.github.io/posts/2019-meet-up-data-bites/</guid>
+            <description>We spoke at the very first Data bites event hosted by the Institute for Government.
+Data bite presentation highlight better use of data for effective government. Their view to to hear from teams across government, everything from policy to public services, from data sharing to data visualisation, and from infrastructure to ethics.
+Sophie Adams and I talked about our approach to data analytics at Ofgem. See: Data bites.</description>
+            <content type="html"><![CDATA[<p>We spoke at the very first Data bites event hosted by the <a href="https://www.instituteforgovernment.org.uk/">Institute for Government</a>.</p>
+<p>Data bite presentation highlight better use of data for effective government. Their view to to hear from teams across government, everything from policy to public services, from data sharing to data visualisation, and from infrastructure to ethics.</p>
+<p>Sophie Adams and I talked about our approach to data analytics at Ofgem. See: <a href="https://www.instituteforgovernment.org.uk/events/data-bites-getting-things-done-data-government">Data bites</a>.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Book Review: Superintelligence by Nick Bostrom</title>
+            <link>https://jdzool.github.io/posts/2017-book-review-superintelligence/</link>
+            <pubDate>Thu, 15 Jun 2017 11:23:16 +0100</pubDate>
+            
+            <guid>https://jdzool.github.io/posts/2017-book-review-superintelligence/</guid>
+            <description>My wife’s interest in policy and the broader societal implications of the development of Artificial Intelligence led to her ordering one of, if not the, foundational books on general AI: “Superintelligence”, by Nick Bostrom.
+My interest in machine learning and data science led to me to borrow said book almost from the moment it landed on our doorstep. It’s been an interesting read, and has kept me occupied on trains and in other spare moments.</description>
+            <content type="html"><![CDATA[<p>My wife’s interest in policy and the broader societal implications of the development of Artificial Intelligence led to her ordering one of, if not the, foundational books on general AI: “Superintelligence”, by Nick Bostrom.</p>
+<p>My interest in machine learning and data science led to me to borrow said book almost from the moment it landed on our doorstep. It’s been an interesting read, and has kept me occupied on trains and in other spare moments. I wouldn’t recommend it for bedtime reading, though, as Nick Bostrom doesn’t shy away from being technical!</p>
+<p>Below is a brief definition and overview of superintelligence as well as a basic summary of some of the issues and challenges that a superintelligent AI may portend for humanity.</p>
+<p>What is superintelligence? Superintelligence (strong-AI or general intelligence) is a system that would be able to surpass human brain capacity in every field; imagine the smartest scientist ever born, an unbeatable trivia partner and the most engaging social butterfly, all rolled into one.</p>
+<p>Sounds complicated? It is. It’s like comparing the smarts of Einstein with those of your slow colleague at work—and that’s not even close! Superintelligence would be like comparing Einstein’s cognitive capacity to that of ant, only humans are the ants. And, as ants, our inability to comprehend this superintelligence creates a lot of uncertainty and speculation on the topic. Articles written about superintelligence have many qualifiers (could&rsquo;s, would&rsquo;s, should&rsquo;s)—this book included.</p>
+<p>How do we make a general AI? It is imagined that at some point in the future, a seed AI will be able to rewrite it&rsquo;s codebase, enabling it to recursively self-improve. In theory, this would allow the AI to become increasingly more intelligent and, without the biological limitations of humans, could lead to what experts call an “intelligence explosion”. And then what?</p>
+<p>The rate at which AI can improve itself will greatly determine our ability to keep pace, control and interact with it. Fast self-improvement and the AI might quickly outsmart us—causing us to lose control over it. Slow self-improvement and we might have time to perfect the AI and governance of its use.</p>
+<p>So who is watching out for us? Is there someone working to ensure that AI doesn’t get away from us? Good news and bad news here. The short answer is yes, many are aware of the potential downsides. The most vocal lately has been Elon Musk, but many other prominent technologies have raised the alarm. There are now a few institutes looking into these issues, many affiliated with universities where this research is taking place. The bad news is that, unsurprisingly, governments are woefully behind.</p>
+<p>Would AI ever be unfriendly? Bostrom warns that superintelligence might not have anthropomorphic goals, citing an AI run paperclip factory that never knows when to stop so it continues to cannibalize resources indefinitely—or a machine that, with the goal of ‘optimising human happiness’, plants electrodes inside our brains. Brain electrodes, that’s something to avoid. Indeed.</p>
+<p>You can’t program common sense. Programming typically has very literal, specific task-based code. This won’t be possible with an agile, self-taught AI. So we’ll have to do better and design ways to guide and control the AI in new ways to steer us away from brain electrode type outcomes.</p>
+<p>I’m sure we’re a long way from anything yet. Well, almost sure. Most estimates put us at 20 - 50 years away from true superintelligence, and these are highly speculative timeframes. The truth is that we don’t know. However, applied AI, where we train AI on a specific task using a massive coded data set is very much here today and part of our daily lives. Most of the hot new tech that offers responses to a range of user queries involves applied AI. Specific applications include speech recognition, language translation, search, image clustering, and even automated model creation (AutoML).</p>
+<p>Phew! Overwhelmed? You should be. AI has the to potential to solve some of society’s most complex and existential challenges from climate change to food scarcity. At the same time, it has the potential to massively disrupt employment as we know it and lead to a world where decisions are made by AI, that we don’t understand, making it impossible to audit them and determine whether they adhere to our values.</p>
+<p><strong>Do say: “Data policy and general AI is something to take seriously and watch out for in the future.”</strong></p>
+<p><strong>Don’t say: “Skynet is coming - run for your lives!</strong></p>
+<p><code>This blog post was published on Valtech's website [here](https://www.valtech.com/insights/superintelligence/)</code></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Blog: A case of the Business Registers (ONS)</title>
+            <link>https://jdzool.github.io/posts/2017-a-case-of-the-business-registers/</link>
+            <pubDate>Fri, 03 Feb 2017 11:23:31 +0000</pubDate>
+            
+            <guid>https://jdzool.github.io/posts/2017-a-case-of-the-business-registers/</guid>
+            <description>This blog post was published on Valtech&#39;s team website and describes work completed at the Office of National Statistics (ONS) in Newport as part of the Statistical Business Register (SBR) Discovery. The project wrapped up at ONS on February 3rd 2017. The post has been modified for public consumption.
+Key links describing future work are included at the end of this post.
+Some background Broadly a business register keeps track of economic data, most importantly turnover, number of employees, sector, business ownership and some idea of the aggregation of the business group (i.</description>
+            <content type="html"><![CDATA[<p><code>This blog post was published on Valtech's team website and describes work completed at the Office of National Statistics (ONS) in Newport as part of the Statistical Business Register (SBR) Discovery. The project wrapped up at ONS on February 3rd 2017. The post has been modified for public consumption.</code></p>
+<p><code>Key links describing future work are included at the end of this post.</code></p>
+<h2 id="some-background">Some background</h2>
+<p>Broadly a business register keeps track of economic data, most importantly turnover, number of employees, sector, business ownership and some idea of the aggregation of the business group (i.e. Tescos Supermarkets, Tescos Mobile etc.). Most countries have business registers and they’re used for economic analysis, policy decision making and in the creation of the all pervasive (and increasingly ineffective) value, GDP. In the UK, currently, the Inter-Departmental Business Register (IDBR) (a database) operates to deliver this information.</p>
+<p>IDBR ingests VAT, Pay As You Earn (PAYE) and Companies House data to create regional and national statistics. You’ll be surprised to learn that these sources don’t cover a large proportion of the UK economy, those that work as self employed or have businesses under the PAYE employee limit are not reported.</p>
+<p>Being unable to capture information about the whole of the economy, of course, hinders the use of the IDBR as the statistics generated are accurate only within the limits of the sampling population. As such new data sources (initially, Self Assessment) are to be included and this was one of the core changes (there are many others) proposed by Sir Bean is his evaluation of ONS (Independent Review of UK Economic Statistics, March 2016).</p>
+<p>Following on ONS have proposed that IDBR is replaced by a suite of services &ndash; an Address Index (AI), a Business Index (BI) and a Statistical Business Register (SBR), all of which rest on a data management platform. This activity has already started (see AI and BI workstream) and while the work is clearly involved with creating new services for use, ONS must deal also with the replacement and transition away from the out-dated monolithic system of IDBR. Here, users rely on the consistency of statistics produced and many users sampling from the database only on an annual basis. Some users are worried about discontinuities of the statistics produced after a move to new system. These are valid concerns, statistics from IDBR are often used on a comparative basis with movements measured by shifts from a previous baseline; ‘employment up 3 %’ or &lsquo;GDP is down by 1 %&rsquo; (from last year&rsquo;s calculation) etc. Yet discontinuities can be present as the system function may change through improved methods of sampling, changes in interpolation methods used to calculate employment and turnover and as well a larger population of the economy considered by the inclusion of future datasets.</p>
+<h2 id="the-plot-thickens">The plot thickens</h2>
+<p>To compare new with current, an existing service function must be discovered to enable comparison and validation of both services. Unfortunately IDBR is a complex system with few subject matter experts and without complete documentation relating to the function of the database. As a core source of information we looked to analyse directly the numerous (3000+) stored procedures (referred to as programs from here in) employed within IDBR in order to reverse engineer the functionality of the system.</p>
+<p>One caveat, prior to discussing the information gathered; this analysis is static – no information was gained about how users actually interact with the system. We did not have access to the live system and so analysis was completed on the passive infrastructure. In this instance, we did not attempt to gauge the proportion of code being used. Some program filenames had different versions presenting the fact that legacy code does exist. It is very likely that the scale of the problem is smaller than one addressed.</p>
+<h2 id="the-evidence">The evidence</h2>
+<p>In order to seek how the existing database functions and to be able to break this functionality into manageable parts for any transition, we must first understand how the data within the database is being accessed and manipulated. To do so, we first seek to map the connections between programs and tables as well as the connections between programs and sub-programs. In the second instance, discovering the relationships between programs and tables is of interest. In this case we know program A is connected to table B but how specifically does program A interact with table B, for example is it selecting data, updating data, deleting data? This approach is enabled by creating a graphical network where by all relationships can be mapped. In the final instance of this work (which we haven’t quite reached!) a user may search this connected web in order to piece together functionality from the various linked relationships.</p>
+<p>To map connections; with a list of all table names (approx. 30,000) and all program names we were able to map the two against each other to create a network of programs calling tables and programs calling sub-programs. With a hierarchical structure (programs can call tables, tables cannot call programs), these graphs are directed. Directed graphs generally lack loops and so are termed acyclic.  On these initial networks we can run traversal algorithms to map the different steps that a program may be used against database data. This analysis gives the first insight into the function of IDBR.</p>
+<figure class="center">
+    <img src="/img/ONS_blog_word_match.png"
+         alt="Left: visualisation of graphical database of tables (blue) and programs (green) tables with greater connections are larger, Right: program map for iss_pr_dets showing sub-program structure (potential calls from initial program)."/> <figcaption>
+            <p>Left: visualisation of graphical database of tables (blue) and programs (green) tables with greater connections are larger, Right: program map for iss_pr_dets showing sub-program structure (potential calls from initial program).</p>
+        </figcaption>
+</figure>
+
+<p>To map relationships we used a semantic analysis framework in Java – ANTLR (ANother Tool for Language Recognition), this provides a method to parse strings (pieces of code) against a pre-defined grammar. The output of the parsing process is itself is a set of hierarchical relationships where by leaves (end nodes) in the network are linked to programs though a series of labels assigned by the user (see figure, Annotated AST, &lsquo;TN_PARAM&rsquo;). This method enables us to find all tables within a program and allows us to label each by how it is being referenced. Semantic analysis by this method is able to parse nested queries and so gives a much larger amount of information with regard to the relationships between programs and tables than our initial matching program.</p>
+<p>To facilitate the semantic analysis, I developed a computational pipeline which automates the process allowing us to apply the grammar and semantic analysis technique to any number of program files. On the back end of the pipeline I aggregated grammar errors and this aided in the optimisation of the process.</p>
+<figure class="center">
+    <img src="/img/ONS_blog_grammar.png"
+         alt="ANTLR pipeline: Source files are input on left hand side, Lexer / Parser output creates Annotated Abstract Syntax Trees (AST) which are then added to enrich a graphical database showing connections / system functionality."/> <figcaption>
+            <p>ANTLR pipeline: Source files are input on left hand side, Lexer / Parser output creates Annotated Abstract Syntax Trees (AST) which are then added to enrich a graphical database showing connections / system functionality.</p>
+        </figcaption>
+</figure>
+
+<p>While this may sounds straight-forwards – sadly it wasn’t! The issue lies within the creation of grammar, there is no grammar for the Ingress 4th Generation Language (Ingres 4GL, the database language for IDBR). We wrote our grammar from scratch, which is not easy to get right. The main challenge is one of complexity, each time we changed the grammar something broke. It’s a whack-a-mole-problem, your fixes in turn break other things. Why is grammar so difficult to write? Well, it’s a set of rules which must satisfy unknown criteria (there are many edge cases or different ways to write the same functionality) and to add to the complexity the order in which the rules are written are important. In essence we were working to create a key to fit all locks with very little feedback as to whether positive progress is being made. The error metrics from the pipeline, gave some insight into our failure rates and where to focus efforts but this was not sufficient to solve the problem in the given time.</p>
+<p>Now, what if you didn’t have to match the whole program? And could use different specialised grammars against different parts of the program. This is the idea behind ANTLRv4, enabling information to be extracted from the formal language of code but without the need to understand or write a complete set of grammar rules. Sadly we wrote out initial pipeline around ANTLRv3, as our technical lead had most experience with this version. He spent some time with ANTLRv4 and thought it to be a viable option for the next phase of work.</p>
+<h2 id="epilogue">Epilogue</h2>
+<p>Putting all the pieces together and we applied ourselves to the question – how is information extracted from IDBR? We found the sequence of programs called from where the initial sampling criteria are entered, to a selection, to sample table creation and then finally to how files are saved to disk. This was of use to the Business Survey Data Collection (BSDC) team who required insight as how their data is generated. Overall when considering this method in use we were able to find database functionality through a semi-automated process and showed that this method may work for finding all functionality. However, our information was only partially complete, as the process of semantic analysis didn’t find all tables and their relationships due to incomplete grammar.</p>
+<p>Finally, I had a great time working on this, the mixture of mashing different frameworks together to create a pipeline, graph traversal, visualisation and then optimisation of grammar presented many complex (and interesting) problems. The application of this work is core to the success and validation of SBR and informs the best strategy for how to smooth the transition from IDBR to SBR.</p>
+<p><strong>End.</strong></p>
+<h2 id="key-links">Key Links</h2>
+<p>ONS Digital continued to develop around the themes of an Address Index for all UK address, a Business Index for all UK businesses and a Statistical Business Register as a data source for statistical generation. The code for each project are open sourced below &ndash;</p>
+<ul>
+<li><a href="https://github.com/ONSdigital/address-index-api">ONS Digital Github: Address Index</a></li>
+<li><a href="https://github.com/ONSdigital/business-index-api">ONS Digital Github: Business Index</a></li>
+<li><a href="https://github.com/ONSdigital/sbr-api">ONS Digital Github: Statistical Business Register</a></li>
+</ul>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>

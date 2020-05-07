@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>presentation on Jon Downing</title>
+    <link>https://jdzool.github.io/tags/presentation/</link>
+    <description>Recent content in presentation on Jon Downing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Wed, 03 Apr 2019 18:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jdzool.github.io/tags/presentation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Meet-up: Data bites - Getting things done with data in government</title>
+      <link>https://jdzool.github.io/posts/2019-meet-up-data-bites/</link>
+      <pubDate>Wed, 03 Apr 2019 18:00:00 +0000</pubDate>
+      
+      <guid>https://jdzool.github.io/posts/2019-meet-up-data-bites/</guid>
+      <description>We spoke at the very first Data bites event hosted by the Institute for Government.
+Data bite presentation highlight better use of data for effective government. Their view to to hear from teams across government, everything from policy to public services, from data sharing to data visualisation, and from infrastructure to ethics.
+Sophie Adams and I talked about our approach to data analytics at Ofgem. See: Data bites.</description>
+    </item>
+    
+  </channel>
+</rss>

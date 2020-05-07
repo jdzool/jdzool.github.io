@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jon Downing</title>
+    <link>https://jdzool.github.io/</link>
+    <description>Recent content on Jon Downing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 24 Apr 2020 14:46:36 +0100</lastBuildDate>
+    
+	<atom:link href="https://jdzool.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://jdzool.github.io/about/</link>
+      <pubDate>Fri, 24 Apr 2020 14:46:36 +0100</pubDate>
+      
+      <guid>https://jdzool.github.io/about/</guid>
+      <description>Hi! I&amp;rsquo;m Jon Downing, this is my website. There&amp;rsquo;s a blog for a collection of thoughts and links to talks, some cross-posted on other publishing sites. The portfolio page includes training session and introductions to coding projects.
+My career started at Imperial College in London before moving to the Washington D.C. to complete a National Academy of Sciences/National Research Council Fellowship at the National Institute of Standards and Technology (NIST). My research focus was understanding the operation and later measurement science and instrumentation for photovoltaics made from plastics.</description>
+    </item>
+    
+    <item>
+      <title>Data Dojo: Design of Analytical Pipelines</title>
+      <link>https://jdzool.github.io/portfolio/2020-data-dojo-design-analytical-pipelines/</link>
+      <pubDate>Tue, 04 Feb 2020 11:54:31 +0100</pubDate>
+      
+      <guid>https://jdzool.github.io/portfolio/2020-data-dojo-design-analytical-pipelines/</guid>
+      <description>While rules are meant to be broken, I believe having a process flow/framework can often simplify problem solving for a team. We thought a lot about this at Ofgem and came up with a five stage process (Define, Explore, Design, Build, Handover). Maybe the team will open source this progress at some point&amp;hellip; in the mean time I&amp;rsquo;ve written here about the design of analytical pipelines. Get the design process right and you&amp;rsquo;re more than half way there!</description>
+    </item>
+    
+    <item>
+      <title>Blog: On filling the (data) lake</title>
+      <link>https://jdzool.github.io/posts/2019-filling-the-lake/</link>
+      <pubDate>Thu, 05 Sep 2019 20:11:25 +0100</pubDate>
+      
+      <guid>https://jdzool.github.io/posts/2019-filling-the-lake/</guid>
+      <description>At Valtech, we work with companies and organisations to deliver digital transformation. Our approach in this space is to create change by building or improving on systems that provide services to users. In building systems and services, we are strongly informed by user needs and seek rapid feedback. Using feedback loops between users and digital/data teams we are more likely to deliver value early and be impactful to improve organisational performance.</description>
+    </item>
+    
+    <item>
+      <title>Meet-up: Data bites - Getting things done with data in government</title>
+      <link>https://jdzool.github.io/posts/2019-meet-up-data-bites/</link>
+      <pubDate>Wed, 03 Apr 2019 18:00:00 +0000</pubDate>
+      
+      <guid>https://jdzool.github.io/posts/2019-meet-up-data-bites/</guid>
+      <description>We spoke at the very first Data bites event hosted by the Institute for Government.
+Data bite presentation highlight better use of data for effective government. Their view to to hear from teams across government, everything from policy to public services, from data sharing to data visualisation, and from infrastructure to ethics.
+Sophie Adams and I talked about our approach to data analytics at Ofgem. See: Data bites.</description>
+    </item>
+    
+    <item>
+      <title>Data Dojo: UML Modelling</title>
+      <link>https://jdzool.github.io/portfolio/2018-data-dojo-uml-modelling/</link>
+      <pubDate>Sat, 01 Dec 2018 12:40:36 +0100</pubDate>
+      
+      <guid>https://jdzool.github.io/portfolio/2018-data-dojo-uml-modelling/</guid>
+      <description>Trevor (the best architect I&amp;rsquo;ve ever met) got me started on PlantUML. It&amp;rsquo;s a great tool to quickly draw technical diagrams. While the diagrams might look like they&amp;rsquo;re from the 1980&amp;rsquo;s (they are), the pseudo-code makes it easy to generate diagrams from text files (.puml) and these can be version controlled. This makes them useful to tracking changes in process flows or collaborating on documentation. See the session I&amp;rsquo;ve run with a few teams to get started: PlantUML Data Dojo.</description>
+    </item>
+    
+    <item>
+      <title>Data Dojo: Introduction to Modelling</title>
+      <link>https://jdzool.github.io/portfolio/2018-data-dojo-intro-to-modelling/</link>
+      <pubDate>Mon, 26 Mar 2018 11:14:14 +0100</pubDate>
+      
+      <guid>https://jdzool.github.io/portfolio/2018-data-dojo-intro-to-modelling/</guid>
+      <description>I spent some time breaking down the modelling process to our junior analysts. The introduction to modelling presents what a model is, why we seek to model and how we can go about creating and validating models. This was an introduction to a wider workshop where members presented initial work on Bayesian statistics, decision trees, discrete event simulation, anomaly detection and neural networks.</description>
+    </item>
+    
+    <item>
+      <title>Book Review: Superintelligence by Nick Bostrom</title>
+      <link>https://jdzool.github.io/posts/2017-book-review-superintelligence/</link>
+      <pubDate>Thu, 15 Jun 2017 11:23:16 +0100</pubDate>
+      
+      <guid>https://jdzool.github.io/posts/2017-book-review-superintelligence/</guid>
+      <description>My wife’s interest in policy and the broader societal implications of the development of Artificial Intelligence led to her ordering one of, if not the, foundational books on general AI: “Superintelligence”, by Nick Bostrom.
+My interest in machine learning and data science led to me to borrow said book almost from the moment it landed on our doorstep. It’s been an interesting read, and has kept me occupied on trains and in other spare moments.</description>
+    </item>
+    
+    <item>
+      <title>Code: Discrete Event Simulation</title>
+      <link>https://jdzool.github.io/portfolio/2017-discrete-event-simulation/</link>
+      <pubDate>Thu, 04 May 2017 15:15:30 +0100</pubDate>
+      
+      <guid>https://jdzool.github.io/portfolio/2017-discrete-event-simulation/</guid>
+      <description>Discrete Event Simulation (DES) is one way to model systems which have defined (discrete) state changes over time. This type of model is useful to understand constraints within a system caused by different processes and queuing behaviours. Common use cases are in logistics (for example package delivery, hospital optimisation) and network simulation (for example capacity management). In each case systems can occupy a set of defined states, and state are modelled to interact under defined business logic coded into the model.</description>
+    </item>
+    
+    <item>
+      <title>Blog: A case of the Business Registers (ONS)</title>
+      <link>https://jdzool.github.io/posts/2017-a-case-of-the-business-registers/</link>
+      <pubDate>Fri, 03 Feb 2017 11:23:31 +0000</pubDate>
+      
+      <guid>https://jdzool.github.io/posts/2017-a-case-of-the-business-registers/</guid>
+      <description>This blog post was published on Valtech&#39;s team website and describes work completed at the Office of National Statistics (ONS) in Newport as part of the Statistical Business Register (SBR) Discovery. The project wrapped up at ONS on February 3rd 2017. The post has been modified for public consumption.
+Key links describing future work are included at the end of this post.
+Some background Broadly a business register keeps track of economic data, most importantly turnover, number of employees, sector, business ownership and some idea of the aggregation of the business group (i.</description>
+    </item>
+    
+  </channel>
+</rss>

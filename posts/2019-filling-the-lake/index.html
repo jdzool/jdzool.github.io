@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="At Valtech, we work with companies and organisations to deliver digital transformation. Our approach in this space is to create change by building or improving on systems that provide services to users. In building systems and services, we are strongly informed by user needs and seek rapid feedback. Using feedback loops between users and digital/data teams we are more likely to deliver value early and be impactful to improve organisational performance." />
+<meta name="keywords" content=", data-architecture" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://jdzool.github.io/posts/2019-filling-the-lake/" />
+
+
+    <title>
+        
+            Blog: On filling the (data) lake :: Jon Downing 
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.min.753fac8f03736f0edc9be411eb20cee875dd7bb8e73c8155fbf6a629c863f4ca.css">
+
+
+
+
+
+
+<meta itemprop="name" content="Blog: On filling the (data) lake">
+<meta itemprop="description" content="At Valtech, we work with companies and organisations to deliver digital transformation. Our approach in this space is to create change by building or improving on systems that provide services to users. In building systems and services, we are strongly informed by user needs and seek rapid feedback. Using feedback loops between users and digital/data teams we are more likely to deliver value early and be impactful to improve organisational performance.">
+<meta itemprop="datePublished" content="2019-09-05T20:11:25&#43;01:00" />
+<meta itemprop="dateModified" content="2019-09-05T20:11:25&#43;01:00" />
+<meta itemprop="wordCount" content="1106">
+<meta itemprop="image" content="https://jdzool.github.io/gitlab"/>
+
+
+
+<meta itemprop="keywords" content="data-architecture," />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://jdzool.github.io/gitlab"/>
+
+<meta name="twitter:title" content="Blog: On filling the (data) lake"/>
+<meta name="twitter:description" content="At Valtech, we work with companies and organisations to deliver digital transformation. Our approach in this space is to create change by building or improving on systems that provide services to users. In building systems and services, we are strongly informed by user needs and seek rapid feedback. Using feedback loops between users and digital/data teams we are more likely to deliver value early and be impactful to improve organisational performance."/>
+
+
+
+    <meta property="og:title" content="Blog: On filling the (data) lake" />
+<meta property="og:description" content="At Valtech, we work with companies and organisations to deliver digital transformation. Our approach in this space is to create change by building or improving on systems that provide services to users. In building systems and services, we are strongly informed by user needs and seek rapid feedback. Using feedback loops between users and digital/data teams we are more likely to deliver value early and be impactful to improve organisational performance." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jdzool.github.io/posts/2019-filling-the-lake/" />
+<meta property="og:image" content="https://jdzool.github.io/gitlab"/>
+<meta property="article:published_time" content="2019-09-05T20:11:25+01:00" />
+<meta property="article:modified_time" content="2019-09-05T20:11:25+01:00" />
+
+
+
+
+
+
+    <meta property="article:published_time" content="2019-09-05 20:11:25 &#43;0100 BST" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">Jon Downing</span>
+            <span class="logo__cursor" style=
+                  "visibility:hidden;
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://jdzool.github.io/about">about</a></li><li><a href="https://jdzool.github.io/posts">blog</a></li><li><a href="https://jdzool.github.io/portfolio">portfolio</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>6 minutes
+
+            
+
+            </p>
+        </div>
+
+        <article>
+            <h1 class="post-title">
+                <a href="https://jdzool.github.io/posts/2019-filling-the-lake/">Blog: On filling the (data) lake</a>
+            </h1>
+
+            
+
+            <div class="post-content">
+                <p>At Valtech, we work with companies and organisations to deliver digital transformation. Our approach in this space is to create change by building or improving on systems that provide services to users. In building systems and services, we are strongly informed by user needs and seek rapid feedback. Using feedback loops between users and digital/data teams we are more likely to deliver value early and be impactful to improve organisational performance.</p>
+<p>In the data space like many others we recommend organisations hold all data in a central location. The advantages of this approach are well documented (see links at the end of this article). Advantages include, a common working processes around data management, ability to derive greater insight as data from across the organisation can be joined and far greater efficiency and transparency of analytical processes.</p>
+<p>Of course the outcome of these benefits is an organisation better able to meet their goals. With this in mind, many organisations seek to build data lakes and data platforms. However, building a platform is not sufficient &ndash; it must be used! And use requires data to be loaded. How should one go about filling a data platform? Here are a four key points from working with clients in this space.</p>
+<ol>
+<li><strong>Understanding the analytical process:</strong> The analytical process is often described as a pyramid. At the bottom of the pyramid is the collection of raw data; raw data is a measurement or observation of some quantity in the physical world (e.g. wind speed) or virtual world (e.g. ad-clicks). As the pyramid narrows, raw data is validated for accuracy, joined with other datasets and enriched to create derived values. Enriching the data creates knowledge – data items that are known and that can be related to other values or concepts.</li>
+</ol>
+<p>The knowledge pyramid of insights!
+(To redraw)</p>
+<ol start="2">
+<li>
+<p><strong>Design data pipelines:</strong> In order to building up the knowledge pyramid we must understand the value or need of the activity. This can be split into two tasks; business analysis and data business analysis. Business analysis focuses on the business outcomes of a process or organisational unit, setting the context at the business level; What is our vision?, Why are we starting project x?, What is the outcome of business process y?, How is this resourced?</p>
+<p>Data business analysis is at the next level down and focuses on the use of data to fulfil the defined business needs. Still with an element of exploration but having the context defined, now analysts have a much more focused aim; Which data inputs are available?, Which outputs are required to meet business needs? Are outputs calculated? Which algorithms or models are required?</p>
+<p>The task of requirements gathering at the Data Business Analysis level is may not be quite data science (in our view constrained to creating algorithms and predictive modelling), although often is completed by data scientists as part of their work.</p>
+<p>The output from the combined Business Analysis and Data Business Analysis is a deep understanding of the subject domain and the definition of a pipeline that can take data from measurements through to decision. If completed correctly, from documentation of requirements user stories for a data engineering team can fall neatly out. Useful artefacts to create when conducting this process are:</p>
+<ul>
+<li>A conceptual data model: A representation of the system, made up from concepts and their relationships to each other.</li>
+<li>Physical data model: The data items (column headers or attributes, data types, data definitions) used in the data pipeline</li>
+<li>Physical data flows: The description of how data flows through a system from raw to outputs. This is through a series of data items linked by specific transformations.</li>
+</ul>
+</li>
+</ol>
+<div style="text-align: center;">
+<figure class="center">
+    
+        <img src="/img/data_lake_pyramid_meme.png" width="400" />
+    
+    <figcaption><small><i>Pyramid meme</i></small></figcaption>
+</figure>
+</div>
+
+<ol start="3">
+<li>
+<p><strong>Filling the lake (data architecture, run data pipelines):</strong> In loading data into a common platform and creating data pipelines from data there are still many decisions to make. The first is that of data architecture – all data should be stored across the data lifecycle. In line with our idea of building a pyramid of knowledge we normally chose buckets each of which is a layer of the pyramid. For example raw, ingest, transform, calculate, publish. Each bucket has a defined meaning; for instance, raw data is raw with nothing more than a virus scan being applied to the data, ingested data is raw data which has been validated against certain business rules and so on.</p>
+<p>The value of this approach is that the state of data at each layer is known, transitions between layers can be repeated and tested, and everything is stored, meaning users can access disaggregated data as needed for possible future experiments.</p>
+<p>In starting to load data into this data architecture, we have two main options:</p>
+<ul>
+<li>Load only raw data: We can load data only at the bottom of the pyramid. With this data, data pipelines can enrich the data and apply calculation to create aggregations or other statistical outputs.</li>
+<li>‘User picks value’: Any dataset required can be loaded into the platform, aggregated data may already exist and be useful to users. Contrary to pyramids data architecture does not require a layer below it for support!</li>
+</ul>
+<p>Of course, there is no right answers with each approach having pros and cons. For instance, in the first instance, calculations must be known to allow more valuable outputs to be created. In the second case, existing outputs loaded into the platform may not be accurate and certainly are not testable as we lack the raw data to create them. Users might be cautioned in the use of this data &ndash; bad data in, bad decisions out! However, some data is (most of the time) better than no data.</p>
+</li>
+<li>
+<p><strong>Invest, iterate and create value:</strong> In short, setup your teams right – hire those with mixed skills (Business Analysts, Data Business Analysts) and implement a process by which data can be organised at scale. The outputs created from the analysis process should feed engineering teams to develop data pipelines building data from raw data to however high up the knowledge pyramid your need requires. Users should provide feedback on data stored in the platform and so start the cycle again if need be.</p>
+</li>
+</ol>
+<p>In a parallel with digital transformation, filling a central data store to realise analytical benefits requires continued investment. I believe following the few points above can help guide teams in filling a central data store and start leveraging the data stored. From my time working at Jaguar Land Rover, I am reminded by an old poster in the engineering building – ‘The cost of change is lowest in the design phase’. Get your initial analysis close to right, iterate and the rest will follow!</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://jdzool.github.io/tags/data-architecture">data-architecture</a></span>
+                </p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>1106 Words</p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-09-05 20:11 &#43;0100</p>
+        </div>
+
+        
+            <div class="pagination">
+                <div class="pagination__title">
+                    <span class="pagination__title-h">Read other posts</span>
+                    <hr />
+                </div>
+
+                <div class="pagination__buttons">
+                    
+
+                    
+                        <span class="button next">
+                            <a href="https://jdzool.github.io/posts/2019-meet-up-data-bites/">
+                                <span class="button__text">Meet-up: Data bites - Getting things done with data in government</span>
+                                <span class="button__icon">→</span>
+                            </a>
+                        </span>
+                    
+                </div>
+            </div>
+        
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            <span> <a href="https://jdzool.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Theme by <a href="https://github.com/rhazdon">Djordje Atlialp</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.4a69500057d68129e88f497d354afe68422eb56de6d15e45dbe2190858ea5a76bfcb096406f992984b241db45f47388ac57ab0376e3b32125bef7a8a6d0f06c4.js" integrity="sha512-SmlQAFfWgSnoj0l9NUr&#43;aEIutW3m0V5F2&#43;IZCFjqWna/ywlkBvmSmEskHbRfRziKxXqwN247MhJb73qKbQ8GxA=="></script>
+
+
+
+    </body>
+</html>
