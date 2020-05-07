@@ -13,6 +13,26 @@
   </url>
   
   <url>
+    <loc>https://jdzool.github.io/posts/2020-books-reading/</loc>
+    <lastmod>2020-04-01T11:20:03+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jdzool.github.io/tags/book-review/</loc>
+    <lastmod>2020-04-01T11:20:03+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jdzool.github.io/posts/</loc>
+    <lastmod>2020-04-01T11:20:03+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jdzool.github.io/tags/</loc>
+    <lastmod>2020-04-01T11:20:03+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jdzool.github.io/portfolio/2020-data-dojo-design-analytical-pipelines/</loc>
     <lastmod>2020-02-04T11:54:31+01:00</lastmod>
   </url>
@@ -28,22 +48,12 @@
   </url>
   
   <url>
-    <loc>https://jdzool.github.io/tags/</loc>
-    <lastmod>2020-02-04T11:54:31+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jdzool.github.io/posts/2019-filling-the-lake/</loc>
     <lastmod>2019-09-05T20:11:25+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://jdzool.github.io/tags/data-architecture/</loc>
-    <lastmod>2019-09-05T20:11:25+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jdzool.github.io/posts/</loc>
     <lastmod>2019-09-05T20:11:25+01:00</lastmod>
   </url>
   
@@ -73,11 +83,6 @@
   </url>
   
   <url>
-    <loc>https://jdzool.github.io/tags/untagged/</loc>
-    <lastmod>2017-06-15T11:23:16+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jdzool.github.io/portfolio/2017-discrete-event-simulation/</loc>
     <lastmod>2017-05-04T15:15:30+01:00</lastmod>
   </url>
@@ -99,6 +104,11 @@
   
   <url>
     <loc>https://jdzool.github.io/posts/2017-a-case-of-the-business-registers/</loc>
+    <lastmod>2017-02-03T11:23:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jdzool.github.io/tags/untagged/</loc>
     <lastmod>2017-02-03T11:23:31+00:00</lastmod>
   </url>
   

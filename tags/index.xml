@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 04 Feb 2020 11:54:31 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2020 11:20:03 +0100</lastBuildDate>
     
 	<atom:link href="https://jdzool.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>book-review</title>
+      <link>https://jdzool.github.io/tags/book-review/</link>
+      <pubDate>Wed, 01 Apr 2020 11:20:03 +0100</pubDate>
+      
+      <guid>https://jdzool.github.io/tags/book-review/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>data-dojo</title>
@@ -40,15 +49,6 @@
     </item>
     
     <item>
-      <title>untagged</title>
-      <link>https://jdzool.github.io/tags/untagged/</link>
-      <pubDate>Thu, 15 Jun 2017 11:23:16 +0100</pubDate>
-      
-      <guid>https://jdzool.github.io/tags/untagged/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>coding-projects</title>
       <link>https://jdzool.github.io/tags/coding-projects/</link>
       <pubDate>Thu, 04 May 2017 15:15:30 +0100</pubDate>
@@ -72,6 +72,15 @@
       <pubDate>Thu, 04 May 2017 15:15:30 +0100</pubDate>
       
       <guid>https://jdzool.github.io/tags/model-building/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>untagged</title>
+      <link>https://jdzool.github.io/tags/untagged/</link>
+      <pubDate>Fri, 03 Feb 2017 11:23:31 +0000</pubDate>
+      
+      <guid>https://jdzool.github.io/tags/untagged/</guid>
       <description></description>
     </item>
     
