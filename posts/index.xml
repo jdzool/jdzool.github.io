@@ -6,8 +6,46 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Wed, 01 Apr 2020 11:20:03 +0100</lastBuildDate>
+        <lastBuildDate>Wed, 27 May 2020 10:59:11 +0100</lastBuildDate>
         <atom:link href="https://jdzool.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Blog: On generating value from data</title>
+            <link>https://jdzool.github.io/posts/2020-on-generating-value-from-data/</link>
+            <pubDate>Wed, 27 May 2020 10:59:11 +0100</pubDate>
+            
+            <guid>https://jdzool.github.io/posts/2020-on-generating-value-from-data/</guid>
+            <description>Today, many leaders inherently understand that there is value in their organisational data. The challenge, however, lies in the ability of the organisation to realise that perceived value: ideas are cheap and execution is everything. In ideation the following are important:
+ Any data is only valuable if it can be used to inform a decision making process. This tenent connects the collection of data in a raw format to the generation of information which is valuable to a user, customer or organisation; informed decisions are more valuable than uninformed decisions.</description>
+            <content type="html"><![CDATA[<p>Today, many leaders inherently understand that there is value in their organisational data. The challenge, however, lies in the ability of the organisation to realise that perceived value: <!-- raw HTML omitted --> ideas are cheap and execution is everything. <!-- raw HTML omitted --></p>
+<p>In ideation the following are important:</p>
+<ol>
+<li>Any data is only valuable if it can be used to inform a decision making process. This tenent connects the collection of data in a raw format to the generation of information which is valuable to a user, customer or organisation; informed decisions are more valuable than uninformed decisions. Decisions can be anything from using data to define your new business strategy to the recommendation the next song on your playlist.</li>
+<li>Timing counts. If data are timely and accurate decisions will be more valuable. There is no point providing data after the fact or in such a form where by false confidence is placed on information due to a lack of understanding of error/ measurement uncertainty. Previous paradigms around batch processing are slowly being replaced with data streaming solution. Here, each data pipeline defining the flows of information through an organisational estate.</li>
+</ol>
+<p>In execution, I believe there are a set of general data/transformation projects and themes that can add value to an organisation. Generalising the value-from-data problem may help leaders see analogue to their existing challenges. Broadly there are two problem domains:</p>
+<ul>
+<li><strong>Operations</strong>: Projects that use data to improve existing business as usual activities by means of efficiency savings or further enabling existing services</li>
+<li><strong>Growth</strong>: The creation of new products, services and markets.</li>
+</ul>
+<p>Note - all themes overlap, improvements in one space is likely going to yield benefit in other spaces. For me operations is more towards data engineering, data science activities play more in the growth space, although again there is overlap between the two. The type of play for each is in brackets.</p>
+<h3 id="operations-efficient-business-as-usual">Operations: Efficient business as usual</h3>
+<ul>
+<li>Automation of manual processes for efficiency savings (digital/data transformation)</li>
+<li>Improving the process of work to enable greater collaboration between teams and more rapid reporting (open data initiatives, central data stores, data platforms, improving master and reference data management)</li>
+<li>Increase the timeliness and accuracy of the data to better inform decisions (computational optimisation, measurement science activities, enriching data by joining with non-organisational datasets, data modelling)</li>
+<li>Simulation and forecasting of existing systems/processes to optimise their function (process modelling, digital twins)</li>
+</ul>
+<h3 id="growth-new-products-services-and-markets">Growth: New products, services and markets</h3>
+<ul>
+<li>Finding common patterns in data / user activities to support new services (data mining, system modelling)</li>
+<li>Finding uncommon patterns in data / user activities (data mining, anomaly detection)</li>
+<li>Predictive analytics (failure analysis, customer retention, cross-sell)</li>
+<li>Prescriptive analytics to automated response from models (joining analytical models with digital systems)</li>
+<li>Generate new markets, new ways of doing ‘work’ and connecting with customers (business models development, digital and data platform initiatives)</li>
+</ul>
+]]></content>
+        </item>
         
         <item>
             <title>Book Reviews: Non-fiction &#39;business&#39;/digital/data-type books</title>
