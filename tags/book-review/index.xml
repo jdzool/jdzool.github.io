@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>book-review on Jon Downing</title>
-    <link>http://localhost:1313/tags/book-review/</link>
+    <link>https://jdzool.github.io/tags/book-review/</link>
     <description>Recent content in book-review on Jon Downing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Wed, 01 Apr 2020 11:20:03 +0100</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/book-review/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jdzool.github.io/tags/book-review/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Book Reviews: Non-fiction &#39;business&#39;/digital/data-type books</title>
-      <link>http://localhost:1313/posts/2020-books-reading/</link>
+      <link>https://jdzool.github.io/posts/2020-books-reading/</link>
       <pubDate>Wed, 01 Apr 2020 11:20:03 +0100</pubDate>
       
-      <guid>http://localhost:1313/posts/2020-books-reading/</guid>
+      <guid>https://jdzool.github.io/posts/2020-books-reading/</guid>
       <description>This is a on-going list of informative &amp;lsquo;business&amp;rsquo;/digital/data books. If I read a book I don&amp;rsquo;t find interesting/helpful it won&amp;rsquo;t make it on to this list. Summaries are included a reminders of key points.
  Have read Value Proposition Design: How to Create Products and Services Customers Want (Strategyzer)
  Business Model Generation, Value Proposition Canvas and design.
@@ -26,10 +26,10 @@
     
     <item>
       <title>Book Review: Superintelligence by Nick Bostrom</title>
-      <link>http://localhost:1313/posts/2017-book-review-superintelligence/</link>
+      <link>https://jdzool.github.io/posts/2017-book-review-superintelligence/</link>
       <pubDate>Thu, 15 Jun 2017 11:23:16 +0100</pubDate>
       
-      <guid>http://localhost:1313/posts/2017-book-review-superintelligence/</guid>
+      <guid>https://jdzool.github.io/posts/2017-book-review-superintelligence/</guid>
       <description>My wife’s interest in policy and the broader societal implications of the development of Artificial Intelligence led to her ordering one of, if not the, foundational books on general AI: “Superintelligence”, by Nick Bostrom.
 My interest in machine learning and data science led to me to borrow said book almost from the moment it landed on our doorstep. It’s been an interesting read, and has kept me occupied on trains and in other spare moments.</description>
     </item>
