@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>coding-projects on Jon Downing</title>
-    <link>https://jdzool.github.io/tags/coding-projects/</link>
+    <link>http://localhost:1313/tags/coding-projects/</link>
     <description>Recent content in coding-projects on Jon Downing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Thu, 04 May 2017 15:15:30 +0100</lastBuildDate>
     
-	<atom:link href="https://jdzool.github.io/tags/coding-projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/coding-projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Code: Discrete Event Simulation</title>
-      <link>https://jdzool.github.io/portfolio/2017-discrete-event-simulation/</link>
+      <link>http://localhost:1313/portfolio/2017-discrete-event-simulation/</link>
       <pubDate>Thu, 04 May 2017 15:15:30 +0100</pubDate>
       
-      <guid>https://jdzool.github.io/portfolio/2017-discrete-event-simulation/</guid>
+      <guid>http://localhost:1313/portfolio/2017-discrete-event-simulation/</guid>
       <description>Discrete Event Simulation (DES) is one way to model systems which have defined (discrete) state changes over time. This type of model is useful to understand constraints within a system caused by different processes and queuing behaviours. Common use cases are in logistics (for example package delivery, hospital optimisation) and network simulation (for example capacity management). In each case systems can occupy a set of defined states, and state are modelled to interact under defined business logic coded into the model.</description>
     </item>
     

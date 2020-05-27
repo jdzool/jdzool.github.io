@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ideation on Jon Downing</title>
+    <link>http://localhost:1313/tags/ideation/</link>
+    <description>Recent content in ideation on Jon Downing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Wed, 27 May 2020 10:59:11 +0100</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/ideation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog: On generating value from data</title>
+      <link>http://localhost:1313/posts/2020-on-generating-value-from-data/</link>
+      <pubDate>Wed, 27 May 2020 10:59:11 +0100</pubDate>
+      
+      <guid>http://localhost:1313/posts/2020-on-generating-value-from-data/</guid>
+      <description>Today, many leaders inherently understand that there is value in their organisational data. The challenge, however, lies in the ability of the organisation to realise that perceived value: ideas are cheap and execution is everything.
+Ideation In ideation the following are important:
+ Any data is only valuable if it can be used to inform a decision making process. This tenent connects the collection of data in a raw format to the generation of information which is valuable to a user, customer or organisation; informed decisions are more valuable than uninformed decisions.</description>
+    </item>
+    
+  </channel>
+</rss>

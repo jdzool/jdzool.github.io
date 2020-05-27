@@ -2,94 +2,103 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Jon Downing</title>
-    <link>https://jdzool.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Jon Downing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Wed, 27 May 2020 10:59:11 +0100</lastBuildDate>
     
-	<atom:link href="https://jdzool.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>data</title>
-      <link>https://jdzool.github.io/tags/data/</link>
+      <title>ideation</title>
+      <link>http://localhost:1313/tags/ideation/</link>
       <pubDate>Wed, 27 May 2020 10:59:11 +0100</pubDate>
       
-      <guid>https://jdzool.github.io/tags/data/</guid>
+      <guid>http://localhost:1313/tags/ideation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>book-review</title>
-      <link>https://jdzool.github.io/tags/book-review/</link>
+      <link>http://localhost:1313/tags/book-review/</link>
       <pubDate>Wed, 01 Apr 2020 11:20:03 +0100</pubDate>
       
-      <guid>https://jdzool.github.io/tags/book-review/</guid>
+      <guid>http://localhost:1313/tags/book-review/</guid>
       <description></description>
     </item>
     
     <item>
       <title>data-dojo</title>
-      <link>https://jdzool.github.io/tags/data-dojo/</link>
+      <link>http://localhost:1313/tags/data-dojo/</link>
       <pubDate>Tue, 04 Feb 2020 11:54:31 +0100</pubDate>
       
-      <guid>https://jdzool.github.io/tags/data-dojo/</guid>
+      <guid>http://localhost:1313/tags/data-dojo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>data-architecture</title>
-      <link>https://jdzool.github.io/tags/data-architecture/</link>
+      <link>http://localhost:1313/tags/data-architecture/</link>
       <pubDate>Thu, 05 Sep 2019 20:11:25 +0100</pubDate>
       
-      <guid>https://jdzool.github.io/tags/data-architecture/</guid>
+      <guid>http://localhost:1313/tags/data-architecture/</guid>
       <description></description>
     </item>
     
     <item>
       <title>presentation</title>
-      <link>https://jdzool.github.io/tags/presentation/</link>
+      <link>http://localhost:1313/tags/presentation/</link>
       <pubDate>Wed, 03 Apr 2019 18:00:00 +0000</pubDate>
       
-      <guid>https://jdzool.github.io/tags/presentation/</guid>
+      <guid>http://localhost:1313/tags/presentation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>coding-projects</title>
-      <link>https://jdzool.github.io/tags/coding-projects/</link>
+      <link>http://localhost:1313/tags/coding-projects/</link>
       <pubDate>Thu, 04 May 2017 15:15:30 +0100</pubDate>
       
-      <guid>https://jdzool.github.io/tags/coding-projects/</guid>
+      <guid>http://localhost:1313/tags/coding-projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DES</title>
-      <link>https://jdzool.github.io/tags/des/</link>
+      <link>http://localhost:1313/tags/des/</link>
       <pubDate>Thu, 04 May 2017 15:15:30 +0100</pubDate>
       
-      <guid>https://jdzool.github.io/tags/des/</guid>
+      <guid>http://localhost:1313/tags/des/</guid>
       <description></description>
     </item>
     
     <item>
       <title>model-building</title>
-      <link>https://jdzool.github.io/tags/model-building/</link>
+      <link>http://localhost:1313/tags/model-building/</link>
       <pubDate>Thu, 04 May 2017 15:15:30 +0100</pubDate>
       
-      <guid>https://jdzool.github.io/tags/model-building/</guid>
+      <guid>http://localhost:1313/tags/model-building/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>untagged</title>
-      <link>https://jdzool.github.io/tags/untagged/</link>
+      <title>external-blog</title>
+      <link>http://localhost:1313/tags/external-blog/</link>
       <pubDate>Fri, 03 Feb 2017 11:23:31 +0000</pubDate>
       
-      <guid>https://jdzool.github.io/tags/untagged/</guid>
+      <guid>http://localhost:1313/tags/external-blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>project-review</title>
+      <link>http://localhost:1313/tags/project-review/</link>
+      <pubDate>Fri, 03 Feb 2017 11:23:31 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/project-review/</guid>
       <description></description>
     </item>
     
